@@ -64,13 +64,11 @@ export const ShimmerButton = React.forwardRef<HTMLButtonElement, ShimmerButtonPr
             "rounded-1xl px-4 py-1.5 text-sm font-medium",
 
             // transition
-            "transform-gpu transition-all duration-300 ease-in-out",
+            "transform-gpu transition-all duration-300 ease-in-out"
 
             // on hover
-            "group-hover:shadow-[inset_0_-3px_5px_#ffffff3f]",
 
             // on click
-            "group-active:shadow-[inset_0_-5px_5px_#ffffff3f]"
           )}
         />
 
